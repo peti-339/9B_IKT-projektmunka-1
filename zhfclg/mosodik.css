@@ -1,0 +1,30 @@
+*{}
+h1{
+    front font-size: 100;
+}
+h2,h3{
+    color: chartreuse;
+}
+a{
+    font-weight: bold;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    /*betu szine*/
+    color: pink;
+    /*ne maradjon alahuzva*/
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-weight: normal;
+    font-size: larger;
+}
+a:active{
+    color: yellow;
+}
+img{
+    width: 100%;
+}

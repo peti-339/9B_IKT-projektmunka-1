@@ -1,0 +1,72 @@
+body{
+    background-color: antiquewhite;
+}
+.main{
+    width: 1000px;
+    margin:25px auto;
+    padding: 20px;
+    border: 2px solid red;
+}
+.banner{
+    width:100%;
+    background-color: aquamarine;
+    height: 100px;
+}
+nav{
+    width:100%;
+    background-color: rgb(171, 171, 138);
+}
+.content{
+    width:100%;
+    border: 1px solid  purple;
+}
+.banner,nav{
+    margin-bottom: 25px;
+}
+nav ul{
+    list-style-type: none; 
+    position: relative;
+	display: inline-table;
+  
+}
+nav li{
+    float:left;    margin: 20px 0; 
+    padding: 20px 0;
+    margin-right: 20px;     
+}
+nav li a{
+    text-decoration: none;
+    display: block;
+}
+nav li:hover{
+    background-color: burlywood;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.lezaro{
+    clear: both;
+}
+.active{
+    background-color: chartreuse;
+}
+nav ul li > ul {
+    display: none;
+    z-index: 100;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}	
+    nav ul ul li a:hover {
+        background: #4b545f;
+    }

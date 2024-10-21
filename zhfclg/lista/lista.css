@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+.maincontent{
+    width: 75%;
+    margin: 50px auto;
+    padding: 25px;
+    border: 2px dotted green;
+    border-radius: 20px 0 20px 0;
+}
+ul{
+  /*  list-style-type: square;*/
+  list-style-image: url('jel.png');
+}
+.cikk, .cikk img{
+    border-radius: 20px 0 20px 0;
+}
+.cikk{
+    border: 1px solid black;
+    padding: 15px;
+    width: 45%;
+    float: left;
+}
+.lezaro{
+    clear: both;
+}
+.eltartas{
+    margin-right: 10px;
+}
+.cikk img{
+    width: 100%;
+}
+.cikk p{
+    text-align: justify;
+}
+.mm{
+    list-style-image: url('macskamancs.png');
+}
+.km{
+    list-style-image: url('kutyamancs.png');
+}

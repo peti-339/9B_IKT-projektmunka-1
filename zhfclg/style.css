@@ -1,0 +1,18 @@
+body{
+background-color: white;
+}
+.balra{
+    text-align: left;
+}
+.jobra{
+    text-align: right;
+}
+.kozepre{
+    text-align: center;
+}
+.dolt{
+    font-style: italic;
+}
+.alahuzva{
+    text-decoration-line: underline;
+}
